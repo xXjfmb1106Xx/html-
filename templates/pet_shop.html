@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Tienda de mascotas</title>
+<link rel= "stylesheet" href="estilos.css">
+</head>
+<style>
+    .header{
+        background-color: rgba(3, 135, 168, 1);
+        padding: 5px 10%;
+        text-align: center;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        
+    }   
+    .header .logo img{
+        height: 70px;
+        width: auto;
+        border-radius: 100%;
+        transition: all 0.3s;
+    }
+    h1{
+        text-align: center;
+        color: rgba(3, 135, 168, 1);
+        font-size: 40px;
+    }
+    .header .logo img:hover{
+        transform: scale(1,1.2);
+    }
+    .header .logo{
+        cursor: pointer;
+    }
+    .header .main-menu{
+        list-style: none;
+    }
+    .header .main-menu li{
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .header .main-menu a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+    footer{
+        background-color: rgba(3, 135, 168, 1);
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        color: white; 
+    }
+    .main-menu {
+        position: absolute;
+        right: 10%;
+    }
+    .main-menu li:hover{
+        background-color: rgba(1, 202, 102, 1);
+    }
+    .submenu{
+        background-color: rgba(3, 135, 168, 1);
+        list-style: none;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+</style>
+
+<header class= "header">
+        <div class= "container">
+            <div class= "row">
+                <div class= "logo">
+                    <img src="file:///C:/Users/Mariela%20Bernal/Downloads/descarga%20(7).jfif" alt="Logo de la tienda de mascotas">
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="quienes_somos.html">Quienes Somos</a><li>
+                <li><a href="nuestros_productos.html">Nuestros Productos</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+</header>
+<body background= "file:///C:/Users/Mariela%20Bernal/Downloads/Fondo%20de%20vector%20de%20patrón%20de%20pata%20púrpura%20_%20Vector%20Premium.jfif">
+    <h1>Tienda de Mascotas</h1>
+    <br>
+    <hr>
+    <br>
+    <H5> <span>Bienvenido a nuestra pagina de tienda de mascotas</span></H5>
+    <br>
+    <p>Aqui podras encontrar articulos de cuidado y lujo para tu mascota, no importa de que tipo sea, asi como tambien podras encontrar</p>
+    <ul>
+        <li>Alimentos</li>
+        <li>Juguetes</li>
+        <li>Accesorios</li>
+        <li>Ropa</li>
+        <li>Medicamentos</li>
+    </ul>
+    <p> Tambien contamos con servicios de peluqueria, entrenamiento, cuidado veterinario y adiestramiento para asegurar que tu mascota este siempre feliz y saludable.</p>
+    <p> Visitanos y descubre todo lo que tenemos para ofrecerte a ti y a tu fiel compañero.</p>
+    <br>
+
+</body>
+<footer>
+        <p>Derechos reservados &copy; 2024 Tienda de mascotas</p>
+    </footer>
+</html>

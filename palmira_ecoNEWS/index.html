@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palmira EcoNews</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="logo.jfif" alt="Logo pagina" width="30" height="24" class="d-inline-block align-text-top">
+                Palmira <span class="text-success">EcoNews</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Inscribirme</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5 pt-4">
+
+        <section id="inicio" class="mb-5">
+            <div id="ecoNewsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="campaña de siembra.jfif" class="d-block w-100" alt="Campaña de siembra de árboles" style="height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2">
+                            <h5>¡Palmira Verde!</h5>
+                            <p>Unete a la campaña de siembra de árboles en tu colegio.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="recoleccion de basura.jfif" class="d-block w-100" alt="Campaña de recolección de residuos" style="height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2">
+                            <h5>Campaña Cero Residuos</h5>
+                            <p>Inscripciones abiertas para participar en la campaña.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="feria cultural.jfif" class="d-block w-100" alt="Feria cultural o artística" style="height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2">
+                            <h5>Talento Colegial</h5>
+                            <p>Descubre las ferias culturales y artísticas en Palmira y participa.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#ecoNewsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#ecoNewsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="noticias" class="mb-5">
+            <h2 class="text-center mb-4">Últimas Noticias </h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="jornada reforestacion.jfif" class="card-img-top" alt="Jornada de siembra" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">Jornada de reforestación Palmira 2025</h5>
+                            <p class="card-text">En palmira el ultimo mes se replantaron mas de 12 km cuadrados de áreas verdes.</p>
+                            <a href="#" class="btn btn-outline-success">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="feria de recilaje.jfif" class="card-img-top" alt="Recolección de residuos" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Feria de Reciclaje</h5>
+                            <p class="card-text">Varios escuelas se unieron el pasado 24 de octubre a la campaña de reciclaje en Palmira.</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="feria cultural.jfif" class="card-img-top" alt="Feria artística" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title text-info">Campaña Cultural y Artistica 2026</h5>
+                            <p class="card-text">Se anuncia que para el año 2026 se realizará una feria cultural y artística en Palmira.</p>
+                            <a href="#" class="btn btn-outline-info">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="mb-5 p-4 bg-light rounded shadow-sm">
+            <h2 class="text-center mb-4">¡Inscríbete en las campañas !</h2>
+            <form action="#" method="POST">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="colegio" class="form-label">Colegio / Institución</label>
+                    <input type="text" class="form-control" id="colegio" required>
+                </div>
+                <div class="mb-3">
+                    <label for="campana" class="form-label">Seleccionar Campaña</label>
+                    <select class="form-select" id="campana" required>
+                        <option selected disabled value="">Elige una opción...</option>
+                        <option value="siembra">Jornada de Siembra de Árboles</option>
+                        <option value="basura">Campaña de Recolección de Basura</option>
+                        <option value="cultura">Feria Cultural o Artística</option>
+                    </select>
+                </div>
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-success btn-lg">Inscribirme</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer class="text-center text-white bg-dark py-3 mt-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Palmira EcoNews. Todos los derechos reservados.</p>
+            <p class="mb-0">Síguenos en 
+                <a href="#" class="text-white text-decoration-underline">Facebook</a>, 
+                <a href="#" class="text-white text-decoration-underline">Twitter</a>, 
+                <a href="#" class="text-white text-decoration-underline">Instagram</a>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
